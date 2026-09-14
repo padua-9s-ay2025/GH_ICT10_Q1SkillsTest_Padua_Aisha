@@ -3,7 +3,7 @@
 from pyscript import display, document
 
 def create_order(e):
-        document.getElementById("result") = " "
+        document.getElementById("result").innerHTML = " "
         prod1 = document.getElementById("drink1")
         prod2 = document.getElementById("drink2")
         prod3 = document.getElementById("drink3")
