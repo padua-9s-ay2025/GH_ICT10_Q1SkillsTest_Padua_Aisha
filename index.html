@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills-Test: Padua, Aisha, Alvinez; 10-Sapphire</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <h1 class="text-center">OBMC Entrep Fair Group 1: Coffee Shop</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <h2 class="text-center">Menu:</h2>
+
+                    <input type="checkbox" id="drink1" name="drink1" value="150">
+                    <label for="drink1-label">Matcha Latte</label><br>
+
+                    <input type="checkbox" id="drink2" name="drink2" value="120">
+                    <label for="drink2-label">Sea Salt Latte</label><br>
+
+                    <input type="checkbox" id="drink3" name="drink3" value="120">
+                    <label for="drink3-label">Caramel Macchiato</label><br>
+
+                    <button type="button" class="btn btn-warning mt-3" py-click="create_order" value="create_order">Create Order</button>
+
+                <h2 class="text-center">Receipt</h2>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <py-script src="main.py"></py-script>
+</body>
+</html>
